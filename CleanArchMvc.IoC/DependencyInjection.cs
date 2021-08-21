@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace CleanArchMvc.IoC
 {
-    public static class DependecyInjection
+    public static class DependencyInjection
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services,
             IConfiguration configuration)
